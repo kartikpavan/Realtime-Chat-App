@@ -1,7 +1,9 @@
 # Realtime-Chat-App
 
 ## ABOUT 
-![Screenshot 2022-01-28 183653](https://user-images.githubusercontent.com/81632171/151552089-698c999d-1203-431a-88a6-6d26b10ee08e.png)
+
+![sdsd sd](https://user-images.githubusercontent.com/81632171/151570681-48208df4-72e5-4139-9d27-a25e4c3f104d.png)
+
 
 * Realtime chat application using NodeJs and socket.io 
 * Created a realtime chat app using Html, Css and JavaScript.
