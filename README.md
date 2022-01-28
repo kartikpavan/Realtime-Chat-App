@@ -2,7 +2,7 @@
 
 ## ABOUT 
 
-![sdsd sd](https://user-images.githubusercontent.com/81632171/151570681-48208df4-72e5-4139-9d27-a25e4c3f104d.png)
+![wewewewe we](https://user-images.githubusercontent.com/81632171/151571122-5701e81e-b589-4152-bcf4-c4bd178cb6e8.png)
 
 
 * Realtime chat application using NodeJs and socket.io 
