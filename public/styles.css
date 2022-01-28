@@ -80,7 +80,7 @@ textarea {
   font-size: 16px;
   outline: none;
   background: #FBFBFB;
-  border-top: 2px solid green
+  border-top: 2px solid green;
 }
 
 .message {
@@ -109,4 +109,15 @@ textarea {
   left: 0;
   color: #333;
   font-size: 14px;
+}
+
+@media screen and (max-width:480px) {
+  .heading {
+    font-size: 1rem;
+    margin-bottom: 60px;
+  }
+
+  .message-area {
+    height: 300px;
+  }
 }
