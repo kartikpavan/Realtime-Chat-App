@@ -14,6 +14,17 @@ app.get("/", (req, res) => {
 });
 
 const PORT = process.env.PORT || 3000;
-app.listen(PORT, (req, res) => {
+http.listen(PORT, (req, res) => {
   console.log(`Serving on ${PORT}`);
 });
+
+//SOCKET
+const io = require('socket.io')(http)
+
+io.on('connection', (socket) => {
+  console.log('connected.....')
+  socket.on('message', (msg) => {
+    console.log(msg)
+    socket.broadcast.emit('message', msg)
+  })
+})

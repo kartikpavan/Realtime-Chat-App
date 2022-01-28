@@ -10,27 +10,30 @@
 </head>
 
 <body>
+  <div class="heading">
+    <h1><span>Real Time</span> - <span>Chat App</span> </h1>
+  </div>
   <section class="chat-section">
     <div class="brand">
       <img height="40" src="chat.png" alt="">
-      <h1>Chit-Chat</h1>
+      <h1>Chat</h1>
     </div>
     <div class="message-area">
-      <div class="incoming message">
-        <h4>kartik</h4>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, illum.</p>
+      <!-- <div class="incoming message">
+        <h4> Sender Name </h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At, perspiciatis.</p>
       </div>
       <div class="outgoing message">
-        <h4>rakesh</h4>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, placeat.</p>
-      </div>
+        <h4>Reviever name</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat, velit.</p>
+      </div> -->
     </div>
     <div>
       <textarea id="text-area" cols="30" rows="1" placeholder="Write a message"></textarea>
     </div>
   </section>
-
-  <script src="/index.js"></script>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/client.js"></script>
 </body>
 
 </html>
